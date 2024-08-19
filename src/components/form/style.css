@@ -1,0 +1,51 @@
+.formstyle{
+    background-color: #f5faff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 50px auto;  
+}
+.formstyle input[type='text'],
+.formstyle input[type='password'],
+.formstyle input[type='file'] {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #e0f7fa; /* Light teal border */
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.formstyle input[type='text']:focus,
+.formstyle input[type='password']:focus,
+.formstyle input[type='file']:focus {
+  border-color: #80deea; /* Darker teal on focus */
+  outline: none;
+}
+.formstyle button {
+    width: 90%;
+    padding: 12px;
+    background-color: #4db6ac; /* Teal color */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .formstyle button:hover {
+    background-color: #00796b; /* Darker teal on hover */
+  }
+  
+  .formstyle input[type='file'] {
+    background-color: white;
+    padding: 8px;
+  }
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+  }
